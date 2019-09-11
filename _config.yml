@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Sankha Subhra Mullick
-tagline:          'ABC'
+#tagline:         ''
 description:      'Machine Learning Researcher'
 url:              https://SankhaSubhra.github.io
 baseurl:          ''
