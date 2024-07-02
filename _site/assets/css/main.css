@@ -11,7 +11,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 main, article, section { display: block; }
 
-a { color: #ac4142; text-decoration: none; }
+a { color: #4682B4; text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
 a strong { color: inherit; }
 
@@ -27,8 +27,8 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 
 input[type="text"], input[type="email"], input[type="search"], input[type="submit"], button { padding: 1em 1.5em; border: 1px solid #e5e5e5; border-radius: 300px; }
 
-button, input[type="submit"] { cursor: pointer; background: transparent; border-color: #e5e5e5; color: #ac4142; transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out; }
-button:hover, input[type="submit"]:hover { background: #ac4142; border-color: #ac4142; color: white; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
+button, input[type="submit"] { cursor: pointer; background: transparent; border-color: #e5e5e5; color: #4682B4; transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out; }
+button:hover, input[type="submit"]:hover { background: #4682B4; border-color: #4682B4; color: white; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
 
 h1, h2, h3, h4, h5, h6, .site-title { margin-bottom: 0.5rem; font-weight: 600; line-height: 1.25; color: #313131; text-rendering: optimizeLegibility; }
 
@@ -67,7 +67,7 @@ a[href^="#fn:"], a[href^="#fnref:"] { display: inline-block; margin-left: .1rem;
 
 a svg, .icon svg { height: 1em; }
 
-a svg { fill: #ac4142; }
+a svg { fill: #4682B4; }
 
 .icon { vertical-align: middle; }
 
@@ -273,7 +273,7 @@ pre { max-width: 100%; overflow-x: auto; }
  body > #sidebar > header (primary sidebar content -- i.e. title) > h1 (home page only, otherwise div or span) > secondary nav content we may want to hide on certain pages > .container > h1 (non-home page) > .content
  Basic approach is to color in body, make sidebar background transparent, and then fill in the .container or .content elements depending on how far we want the sidebar or header to stretch.
 */
-body { color: rgba(255, 255, 255, 0.75); background-color: #ac4142; background-image: linear-gradient(to bottom, #be5354, #923738); display: flex; flex-direction: column; min-width: 100vw; min-height: 100vh; }
+body { color: rgba(255, 255, 255, 0.75); background-color: #4682B4; background-image: linear-gradient(to bottom, #5e93c0, #3c6f9a); display: flex; flex-direction: column; min-width: 100vw; min-height: 100vh; }
 
 #sidebar { flex: 0 0 auto; padding: 2rem; }
 #sidebar .site-title { font-family: "Abril Fatface", serif; font-weight: normal; font-size: 1.25rem; margin-top: 0; margin-bottom: 0.5rem; }
@@ -374,7 +374,7 @@ h2.post-title, h2.page-title { font-size: 2rem; }
 .posts-list { padding-left: 0; list-style: none; }
 .posts-list h3 { margin-top: 0; }
 .posts-list li small { font-size: 75%; color: #999; white-space: nowrap; }
-.posts-list li a:hover { color: #ac4142; text-decoration: none; }
+.posts-list li a:hover { color: #4682B4; text-decoration: none; }
 .posts-list li a:hover small { color: inherit; }
 
 button.disqus-load { margin-top: 1em; }
@@ -407,7 +407,7 @@ button.disqus-load { margin-top: 1em; }
 .search-row input[type="text"], .search-row input[type="search"] { flex-grow: 1; }
 
 .tags-list a { margin-right: 0.5em; white-space: nowrap; opacity: 0.75; }
-.tags-list a .tag-count { background: #ac4142; color: rgba(255, 255, 255, 0.8); margin-left: 0.25em; border-radius: 1000px; font-size: 0.75em; padding-left: 0.6em; padding-right: 0.6em; }
+.tags-list a .tag-count { background: #4682B4; color: rgba(255, 255, 255, 0.8); margin-left: 0.25em; border-radius: 1000px; font-size: 0.75em; padding-left: 0.6em; padding-right: 0.6em; }
 .tags-list a:hover { text-decoration: none; opacity: 1; }
 
 @keyframes posts-for-tag-fade-in { from { opacity: 0; }
